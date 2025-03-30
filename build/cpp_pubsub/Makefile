@@ -210,6 +210,19 @@ minimal_publisher/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimal_publisher.dir/build.make CMakeFiles/minimal_publisher.dir/build
 .PHONY : minimal_publisher/fast
 
+#=============================================================================
+# Target rules for targets named minimal_subscriber
+
+# Build rule for target.
+minimal_subscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 minimal_subscriber
+.PHONY : minimal_subscriber
+
+# fast build rule for target.
+minimal_subscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimal_subscriber.dir/build.make CMakeFiles/minimal_subscriber.dir/build
+.PHONY : minimal_subscriber/fast
+
 src/publisher_node.o: src/publisher_node.cpp.o
 .PHONY : src/publisher_node.o
 
@@ -234,6 +247,30 @@ src/publisher_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimal_publisher.dir/build.make CMakeFiles/minimal_publisher.dir/src/publisher_node.cpp.s
 .PHONY : src/publisher_node.cpp.s
 
+src/subscriber_node.o: src/subscriber_node.cpp.o
+.PHONY : src/subscriber_node.o
+
+# target to build an object file
+src/subscriber_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimal_subscriber.dir/build.make CMakeFiles/minimal_subscriber.dir/src/subscriber_node.cpp.o
+.PHONY : src/subscriber_node.cpp.o
+
+src/subscriber_node.i: src/subscriber_node.cpp.i
+.PHONY : src/subscriber_node.i
+
+# target to preprocess a source file
+src/subscriber_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimal_subscriber.dir/build.make CMakeFiles/minimal_subscriber.dir/src/subscriber_node.cpp.i
+.PHONY : src/subscriber_node.cpp.i
+
+src/subscriber_node.s: src/subscriber_node.cpp.s
+.PHONY : src/subscriber_node.s
+
+# target to generate assembly for a file
+src/subscriber_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimal_subscriber.dir/build.make CMakeFiles/minimal_subscriber.dir/src/subscriber_node.cpp.s
+.PHONY : src/subscriber_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... cpp_pubsub_uninstall"
 	@echo "... uninstall"
 	@echo "... minimal_publisher"
+	@echo "... minimal_subscriber"
 	@echo "... src/publisher_node.o"
 	@echo "... src/publisher_node.i"
 	@echo "... src/publisher_node.s"
+	@echo "... src/subscriber_node.o"
+	@echo "... src/subscriber_node.i"
+	@echo "... src/subscriber_node.s"
 .PHONY : help
 
 
