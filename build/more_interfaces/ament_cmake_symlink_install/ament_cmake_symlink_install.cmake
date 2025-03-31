@@ -364,6 +364,9 @@ ament_cmake_symlink_install_files("/home/alaa/ros2_ws/src/more_interfaces" FILES
 # install(FILES "/home/alaa/ros2_ws/src/more_interfaces/msg/AddressBook.msg" "DESTINATION" "share/more_interfaces/msg")
 ament_cmake_symlink_install_files("/home/alaa/ros2_ws/src/more_interfaces" FILES "/home/alaa/ros2_ws/src/more_interfaces/msg/AddressBook.msg" "DESTINATION" "share/more_interfaces/msg")
 
+# install("TARGETS" "publish_address_book" "address_book_subscriber" "DESTINATION" "lib/more_interfaces")
+include("/home/alaa/ros2_ws/build/more_interfaces/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
 # install(FILES "/home/alaa/ros2_ws/build/more_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/more_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/alaa/ros2_ws/src/more_interfaces" FILES "/home/alaa/ros2_ws/build/more_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/more_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

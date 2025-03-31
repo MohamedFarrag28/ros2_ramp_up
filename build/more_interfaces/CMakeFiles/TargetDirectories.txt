@@ -15,6 +15,8 @@
 /home/alaa/ros2_ws/build/more_interfaces/CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir
 /home/alaa/ros2_ws/build/more_interfaces/CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c__pyext.dir
 /home/alaa/ros2_ws/build/more_interfaces/CMakeFiles/more_interfaces__rosidl_typesupport_c__pyext.dir
+/home/alaa/ros2_ws/build/more_interfaces/CMakeFiles/publish_address_book.dir
+/home/alaa/ros2_ws/build/more_interfaces/CMakeFiles/address_book_subscriber.dir
 /home/alaa/ros2_ws/build/more_interfaces/CMakeFiles/test.dir
 /home/alaa/ros2_ws/build/more_interfaces/CMakeFiles/edit_cache.dir
 /home/alaa/ros2_ws/build/more_interfaces/CMakeFiles/rebuild_cache.dir

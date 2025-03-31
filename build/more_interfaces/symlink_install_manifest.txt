@@ -41,6 +41,8 @@
 /home/alaa/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
 /home/alaa/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl
 /home/alaa/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg
+/home/alaa/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book
+/home/alaa/ros2_ws/install/more_interfaces/lib/more_interfaces/address_book_subscriber
 /home/alaa/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
 /home/alaa/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
 /home/alaa/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh

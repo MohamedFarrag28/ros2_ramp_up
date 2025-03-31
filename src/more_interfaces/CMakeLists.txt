@@ -11,6 +11,8 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+find_package(rclcpp REQUIRED)
+
 
 set(msg_files
   "msg/AddressBook.msg"
@@ -19,6 +21,27 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
 )
 ament_export_dependencies(rosidl_default_runtime)
+
+
+add_executable(publish_address_book src/publish_address_book.cpp)
+ament_target_dependencies(publish_address_book rclcpp)
+
+add_executable(address_book_subscriber src/address_book_subscriber.cpp)
+ament_target_dependencies(address_book_subscriber rclcpp)
+
+install(TARGETS
+    publish_address_book
+    address_book_subscriber
+  DESTINATION lib/${PROJECT_NAME})
+
+
+
+rosidl_get_typesupport_target(cpp_typesupport_target
+${PROJECT_NAME} rosidl_typesupport_cpp)
+
+target_link_libraries(publish_address_book "${cpp_typesupport_target}")
+target_link_libraries(address_book_subscriber "${cpp_typesupport_target}")
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

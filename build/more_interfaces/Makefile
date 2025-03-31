@@ -393,6 +393,32 @@ more_interfaces__rosidl_typesupport_c__pyext/fast:
 .PHONY : more_interfaces__rosidl_typesupport_c__pyext/fast
 
 #=============================================================================
+# Target rules for targets named publish_address_book
+
+# Build rule for target.
+publish_address_book: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 publish_address_book
+.PHONY : publish_address_book
+
+# fast build rule for target.
+publish_address_book/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publish_address_book.dir/build.make CMakeFiles/publish_address_book.dir/build
+.PHONY : publish_address_book/fast
+
+#=============================================================================
+# Target rules for targets named address_book_subscriber
+
+# Build rule for target.
+address_book_subscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 address_book_subscriber
+.PHONY : address_book_subscriber
+
+# fast build rule for target.
+address_book_subscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/address_book_subscriber.dir/build.make CMakeFiles/address_book_subscriber.dir/build
+.PHONY : address_book_subscriber/fast
+
+#=============================================================================
 # Target rules for targets named more_interfaces__py
 
 # Build rule for target.
@@ -669,6 +695,54 @@ rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__ty
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.s
 
+src/address_book_subscriber.o: src/address_book_subscriber.cpp.o
+.PHONY : src/address_book_subscriber.o
+
+# target to build an object file
+src/address_book_subscriber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/address_book_subscriber.dir/build.make CMakeFiles/address_book_subscriber.dir/src/address_book_subscriber.cpp.o
+.PHONY : src/address_book_subscriber.cpp.o
+
+src/address_book_subscriber.i: src/address_book_subscriber.cpp.i
+.PHONY : src/address_book_subscriber.i
+
+# target to preprocess a source file
+src/address_book_subscriber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/address_book_subscriber.dir/build.make CMakeFiles/address_book_subscriber.dir/src/address_book_subscriber.cpp.i
+.PHONY : src/address_book_subscriber.cpp.i
+
+src/address_book_subscriber.s: src/address_book_subscriber.cpp.s
+.PHONY : src/address_book_subscriber.s
+
+# target to generate assembly for a file
+src/address_book_subscriber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/address_book_subscriber.dir/build.make CMakeFiles/address_book_subscriber.dir/src/address_book_subscriber.cpp.s
+.PHONY : src/address_book_subscriber.cpp.s
+
+src/publish_address_book.o: src/publish_address_book.cpp.o
+.PHONY : src/publish_address_book.o
+
+# target to build an object file
+src/publish_address_book.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publish_address_book.dir/build.make CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o
+.PHONY : src/publish_address_book.cpp.o
+
+src/publish_address_book.i: src/publish_address_book.cpp.i
+.PHONY : src/publish_address_book.i
+
+# target to preprocess a source file
+src/publish_address_book.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publish_address_book.dir/build.make CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.i
+.PHONY : src/publish_address_book.cpp.i
+
+src/publish_address_book.s: src/publish_address_book.cpp.s
+.PHONY : src/publish_address_book.s
+
+# target to generate assembly for a file
+src/publish_address_book.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publish_address_book.dir/build.make CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.s
+.PHONY : src/publish_address_book.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -689,6 +763,7 @@ help:
 	@echo "... more_interfaces__py"
 	@echo "... more_interfaces_uninstall"
 	@echo "... uninstall"
+	@echo "... address_book_subscriber"
 	@echo "... more_interfaces__rosidl_generator_c"
 	@echo "... more_interfaces__rosidl_generator_py"
 	@echo "... more_interfaces__rosidl_typesupport_c"
@@ -700,6 +775,7 @@ help:
 	@echo "... more_interfaces__rosidl_typesupport_introspection_c"
 	@echo "... more_interfaces__rosidl_typesupport_introspection_c__pyext"
 	@echo "... more_interfaces__rosidl_typesupport_introspection_cpp"
+	@echo "... publish_address_book"
 	@echo "... rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.o"
 	@echo "... rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.i"
 	@echo "... rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.s"
@@ -733,6 +809,12 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.s"
+	@echo "... src/address_book_subscriber.o"
+	@echo "... src/address_book_subscriber.i"
+	@echo "... src/address_book_subscriber.s"
+	@echo "... src/publish_address_book.o"
+	@echo "... src/publish_address_book.i"
+	@echo "... src/publish_address_book.s"
 .PHONY : help
 
 

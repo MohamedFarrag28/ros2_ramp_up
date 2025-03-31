@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/alaa/ros2_ws/build/more_interfaces/publish_address_book" "/home/alaa/ros2_ws/build/more_interfaces/address_book_subscriber" "TARGETS" "publish_address_book" "address_book_subscriber" "DESTINATION" "lib/more_interfaces")
