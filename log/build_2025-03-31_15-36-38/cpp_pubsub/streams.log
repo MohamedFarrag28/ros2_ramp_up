@@ -1,0 +1,60 @@
+[0.013s] Invoking command in '/home/alaa/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/alaa/ros2_ws/install/my_custom_interfaces:/home/alaa/ros2_ws/install/cpp_service_demo:/home/alaa/ros2_ws/install/cpp_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/alaa/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.039s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.195s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.207s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.242s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.245s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.252s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.265s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.281s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.324s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.326s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.447s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.519s] -- Found my_custom_interfaces: 0.0.0 (/home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake)
+[0.560s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.658s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.658s] -- Configured cppcheck include dirs: 
+[0.658s] -- Configured cppcheck exclude dirs and/or files: 
+[0.659s] -- Added test 'lint_cmake' to check CMake code style
+[0.661s] -- Added test 'uncrustify' to check C / C++ code style
+[0.661s] -- Configured uncrustify additional arguments: 
+[0.661s] -- Added test 'xmllint' to check XML markup files
+[0.663s] -- Configuring done
+[0.700s] -- Generating done
+[0.716s] -- Build files have been written to: /home/alaa/ros2_ws/build/cpp_pubsub
+[0.754s] [35m[1mConsolidate compiler generated dependencies of target minimal_publisher[0m
+[0.755s] [35m[1mConsolidate compiler generated dependencies of target num_publisher[0m
+[0.756s] [35m[1mConsolidate compiler generated dependencies of target num_subscriber[0m
+[0.778s] [35m[1mConsolidate compiler generated dependencies of target minimal_subscriber[0m
+[0.779s] [ 12%] [32mBuilding CXX object CMakeFiles/num_subscriber.dir/src/num_subscriber.cpp.o[0m
+[0.780s] [ 37%] Built target minimal_publisher
+[0.789s] [ 50%] [32mBuilding CXX object CMakeFiles/num_publisher.dir/src/num_publisher.cpp.o[0m
+[0.806s] [ 75%] Built target minimal_subscriber
+[6.858s] [ 87%] [32m[1mLinking CXX executable num_publisher[0m
+[7.082s] [ 87%] Built target num_publisher
+[11.617s] [100%] [32m[1mLinking CXX executable num_subscriber[0m
+[12.084s] [100%] Built target num_subscriber
+[12.095s] Invoked command in '/home/alaa/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/alaa/ros2_ws/install/my_custom_interfaces:/home/alaa/ros2_ws/install/cpp_service_demo:/home/alaa/ros2_ws/install/cpp_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/alaa/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[12.097s] Invoking command in '/home/alaa/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/alaa/ros2_ws/install/my_custom_interfaces:/home/alaa/ros2_ws/install/cpp_service_demo:/home/alaa/ros2_ws/install/cpp_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/alaa/ros2_ws/build/cpp_pubsub
+[12.118s] -- Install configuration: ""
+[12.120s] -- Execute custom install script
+[12.121s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/minimal_publisher
+[12.121s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/minimal_subscriber
+[12.122s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/num_publisher
+[12.123s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/num_subscriber
+[12.132s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[12.133s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[12.134s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[12.142s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[12.164s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[12.165s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[12.166s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[12.167s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[12.168s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[12.169s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[12.170s] -- Symlinking: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[12.190s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[12.190s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[12.191s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[12.191s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[12.194s] Invoked command in '/home/alaa/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/alaa/ros2_ws/install/my_custom_interfaces:/home/alaa/ros2_ws/install/cpp_service_demo:/home/alaa/ros2_ws/install/cpp_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/alaa/ros2_ws/build/cpp_pubsub
