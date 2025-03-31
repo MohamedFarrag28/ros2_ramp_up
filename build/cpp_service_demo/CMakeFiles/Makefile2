@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/alaa/ros2_ws/build/cpp_service_demo
 
 # The main recursive "all" target.
 all: CMakeFiles/service_node.dir/all
+all: CMakeFiles/client_node.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/cpp_service_demo_uninstall.dir/clean
 clean: CMakeFiles/service_node.dir/clean
+clean: CMakeFiles/client_node.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -135,7 +137,7 @@ CMakeFiles/cpp_service_demo_uninstall.dir/clean:
 CMakeFiles/service_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/service_node.dir/build.make CMakeFiles/service_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/service_node.dir/build.make CMakeFiles/service_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alaa/ros2_ws/build/cpp_service_demo/CMakeFiles --progress-num=1,2 "Built target service_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alaa/ros2_ws/build/cpp_service_demo/CMakeFiles --progress-num=3,4 "Built target service_node"
 .PHONY : CMakeFiles/service_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -153,6 +155,32 @@ service_node: CMakeFiles/service_node.dir/rule
 CMakeFiles/service_node.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/service_node.dir/build.make CMakeFiles/service_node.dir/clean
 .PHONY : CMakeFiles/service_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/client_node.dir
+
+# All Build rule for target.
+CMakeFiles/client_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client_node.dir/build.make CMakeFiles/client_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client_node.dir/build.make CMakeFiles/client_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alaa/ros2_ws/build/cpp_service_demo/CMakeFiles --progress-num=1,2 "Built target client_node"
+.PHONY : CMakeFiles/client_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/client_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alaa/ros2_ws/build/cpp_service_demo/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/client_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alaa/ros2_ws/build/cpp_service_demo/CMakeFiles 0
+.PHONY : CMakeFiles/client_node.dir/rule
+
+# Convenience name for target.
+client_node: CMakeFiles/client_node.dir/rule
+.PHONY : client_node
+
+# clean rule for target.
+CMakeFiles/client_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client_node.dir/build.make CMakeFiles/client_node.dir/clean
+.PHONY : CMakeFiles/client_node.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

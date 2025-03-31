@@ -1,0 +1,30 @@
+[0.013s] Invoking command in '/home/alaa/ros2_ws/build/cpp_service_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alaa/ros2_ws/build/cpp_service_demo -- -j8 -l8
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target client_node[0m
+[0.071s] [ 50%] Built target service_node
+[0.074s] [ 75%] [32mBuilding CXX object CMakeFiles/client_node.dir/src/client_node.cpp.o[0m
+[3.010s] [01m[K/home/alaa/ros2_ws/src/cpp_service_demo/src/client_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalClient::send_request(int64_t, int64_t)[m[K’:
+[3.010s] [01m[K/home/alaa/ros2_ws/src/cpp_service_demo/src/client_node.cpp:37:47:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(MinimalClient*, rclcpp::Client<example_interfaces::srv::AddTwoInts>::FutureAndRequestId&)[m[K’
+[3.010s]    37 |         if ([01;31m[Krclcpp::spin_until_future_complete(this, result_future)[m[K ==
+[3.010s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.012s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.012s]                  from [01m[K/home/alaa/ros2_ws/src/cpp_service_demo/src/client_node.cpp:1[m[K:
+[3.012s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, const FutureT&, std::chrono::duration<_Rep, _Period>)[m[K’
+[3.013s]   105 | [01;36m[Kspin_until_future_complete[m[K(
+[3.013s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.013s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.013s] [01m[K/home/alaa/ros2_ws/src/cpp_service_demo/src/client_node.cpp:37:48:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K(MinimalClient*)this[m[K’ (type ‘[01m[KMinimalClient*[m[K’) to type ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+[3.013s]    37 |         if (rclcpp::spin_until_future_complete([01;36m[Kthis[m[K, result_future) ==
+[3.013s]       |                                                [01;36m[K^~~~[m[K
+[3.013s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.013s]                  from [01m[K/home/alaa/ros2_ws/src/cpp_service_demo/src/client_node.cpp:1[m[K:
+[3.013s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:119:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, const FutureT&, std::chrono::duration<_Rep2, _Period2>)[m[K’
+[3.013s]   119 | [01;36m[Kspin_until_future_complete[m[K(
+[3.013s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.013s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:119:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.013s] [01m[K/home/alaa/ros2_ws/src/cpp_service_demo/src/client_node.cpp:37:47:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::shared_ptr<_Tp>[m[K’ and ‘[01m[KMinimalClient*[m[K’
+[3.013s]    37 |         if ([01;36m[Krclcpp::spin_until_future_complete(this, result_future)[m[K ==
+[3.014s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.779s] gmake[2]: *** [CMakeFiles/client_node.dir/build.make:76: CMakeFiles/client_node.dir/src/client_node.cpp.o] Error 1
+[3.779s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client_node.dir/all] Error 2
+[3.779s] gmake: *** [Makefile:146: all] Error 2
+[3.782s] Invoked command in '/home/alaa/ros2_ws/build/cpp_service_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alaa/ros2_ws/build/cpp_service_demo -- -j8 -l8

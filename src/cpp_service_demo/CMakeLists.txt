@@ -17,9 +17,13 @@ find_package(example_interfaces REQUIRED)
 add_executable(service_node src/service_node.cpp)
 ament_target_dependencies(service_node rclcpp example_interfaces)
 
+add_executable(client_node src/client_node.cpp)
+ament_target_dependencies(client_node rclcpp example_interfaces)
+
 
 install(TARGETS
   service_node
+  client_node
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

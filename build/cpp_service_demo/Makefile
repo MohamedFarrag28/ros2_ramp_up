@@ -210,6 +210,43 @@ service_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/service_node.dir/build.make CMakeFiles/service_node.dir/build
 .PHONY : service_node/fast
 
+#=============================================================================
+# Target rules for targets named client_node
+
+# Build rule for target.
+client_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 client_node
+.PHONY : client_node
+
+# fast build rule for target.
+client_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client_node.dir/build.make CMakeFiles/client_node.dir/build
+.PHONY : client_node/fast
+
+src/client_node.o: src/client_node.cpp.o
+.PHONY : src/client_node.o
+
+# target to build an object file
+src/client_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client_node.dir/build.make CMakeFiles/client_node.dir/src/client_node.cpp.o
+.PHONY : src/client_node.cpp.o
+
+src/client_node.i: src/client_node.cpp.i
+.PHONY : src/client_node.i
+
+# target to preprocess a source file
+src/client_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client_node.dir/build.make CMakeFiles/client_node.dir/src/client_node.cpp.i
+.PHONY : src/client_node.cpp.i
+
+src/client_node.s: src/client_node.cpp.s
+.PHONY : src/client_node.s
+
+# target to generate assembly for a file
+src/client_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client_node.dir/build.make CMakeFiles/client_node.dir/src/client_node.cpp.s
+.PHONY : src/client_node.cpp.s
+
 src/service_node.o: src/service_node.cpp.o
 .PHONY : src/service_node.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... cpp_service_demo_uninstall"
 	@echo "... uninstall"
+	@echo "... client_node"
 	@echo "... service_node"
+	@echo "... src/client_node.o"
+	@echo "... src/client_node.i"
+	@echo "... src/client_node.s"
 	@echo "... src/service_node.o"
 	@echo "... src/service_node.i"
 	@echo "... src/service_node.s"

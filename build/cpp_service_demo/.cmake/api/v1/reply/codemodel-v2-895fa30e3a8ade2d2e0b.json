@@ -18,7 +18,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -35,12 +36,20 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "client_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client_node-c07c05b49ab8a2f8d6d4.json",
+					"name" : "client_node",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "cpp_service_demo_uninstall::@6890427a1f51a3e7e1df",

@@ -310,7 +310,7 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "service_node" "DESTINATION" "lib/cpp_service_demo")
+# install("TARGETS" "service_node" "client_node" "DESTINATION" "lib/cpp_service_demo")
 include("/home/alaa/ros2_ws/build/cpp_service_demo/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/alaa/ros2_ws/build/cpp_service_demo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cpp_service_demo" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

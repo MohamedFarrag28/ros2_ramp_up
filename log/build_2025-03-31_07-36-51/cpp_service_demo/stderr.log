@@ -1,0 +1,7 @@
+[01m[K/home/alaa/ros2_ws/src/cpp_service_demo/src/client_node.cpp:[m[K In constructor ‘[01m[KMinimalClient::MinimalClient()[m[K’:
+[01m[K/home/alaa/ros2_ws/src/cpp_service_demo/src/client_node.cpp:19:24:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+   19 |                 return [01;31m[K0[m[K;
+      |                        [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/client_node.dir/build.make:76: CMakeFiles/client_node.dir/src/client_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

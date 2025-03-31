@@ -1,0 +1,12 @@
+[0.013s] Invoking command in '/home/alaa/ros2_ws/build/cpp_service_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alaa/ros2_ws/build/cpp_service_demo -- -j8 -l8
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target client_node[0m
+[0.070s] [ 50%] Built target service_node
+[0.074s] [ 75%] [32mBuilding CXX object CMakeFiles/client_node.dir/src/client_node.cpp.o[0m
+[2.989s] [01m[K/home/alaa/ros2_ws/src/cpp_service_demo/src/client_node.cpp:[m[K In constructor ‘[01m[KMinimalClient::MinimalClient()[m[K’:
+[2.990s] [01m[K/home/alaa/ros2_ws/src/cpp_service_demo/src/client_node.cpp:19:24:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+[2.990s]    19 |                 return [01;31m[K0[m[K;
+[2.990s]       |                        [01;31m[K^[m[K
+[3.770s] gmake[2]: *** [CMakeFiles/client_node.dir/build.make:76: CMakeFiles/client_node.dir/src/client_node.cpp.o] Error 1
+[3.770s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client_node.dir/all] Error 2
+[3.770s] gmake: *** [Makefile:146: all] Error 2
+[3.773s] Invoked command in '/home/alaa/ros2_ws/build/cpp_service_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alaa/ros2_ws/build/cpp_service_demo -- -j8 -l8
