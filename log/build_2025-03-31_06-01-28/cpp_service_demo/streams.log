@@ -1,0 +1,70 @@
+[0.020s] Invoking command in '/home/alaa/ros2_ws/build/cpp_service_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/alaa/ros2_ws/src/cpp_service_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alaa/ros2_ws/install/cpp_service_demo
+[1.161s] -- The C compiler identification is GNU 11.4.0
+[2.176s] -- The CXX compiler identification is GNU 11.4.0
+[2.215s] -- Detecting C compiler ABI info
+[2.392s] -- Detecting C compiler ABI info - done
+[2.404s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.405s] -- Detecting C compile features
+[2.428s] -- Detecting C compile features - done
+[2.436s] -- Detecting CXX compiler ABI info
+[2.545s] -- Detecting CXX compiler ABI info - done
+[2.555s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.555s] -- Detecting CXX compile features
+[2.556s] -- Detecting CXX compile features - done
+[2.594s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.893s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.074s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.203s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[3.406s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.435s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.475s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.525s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.577s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.714s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.740s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.153s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.217s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.261s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.321s] -- Looking for pthread.h
+[4.546s] -- Looking for pthread.h - found
+[4.547s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.655s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.657s] -- Found Threads: TRUE  
+[4.827s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[4.940s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.047s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.048s] -- Configured cppcheck include dirs: 
+[5.048s] -- Configured cppcheck exclude dirs and/or files: 
+[5.049s] -- Added test 'lint_cmake' to check CMake code style
+[5.051s] -- Added test 'uncrustify' to check C / C++ code style
+[5.051s] -- Configured uncrustify additional arguments: 
+[5.051s] -- Added test 'xmllint' to check XML markup files
+[5.053s] -- Configuring done
+[5.064s] -- Generating done
+[5.068s] -- Build files have been written to: /home/alaa/ros2_ws/build/cpp_service_demo
+[5.077s] Invoked command in '/home/alaa/ros2_ws/build/cpp_service_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/alaa/ros2_ws/src/cpp_service_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alaa/ros2_ws/install/cpp_service_demo
+[5.079s] Invoking command in '/home/alaa/ros2_ws/build/cpp_service_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alaa/ros2_ws/build/cpp_service_demo -- -j8 -l8
+[5.131s] [ 50%] [32mBuilding CXX object CMakeFiles/service_node.dir/src/service_node.cpp.o[0m
+[10.963s] [100%] [32m[1mLinking CXX executable service_node[0m
+[11.364s] [100%] Built target service_node
+[11.375s] Invoked command in '/home/alaa/ros2_ws/build/cpp_service_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alaa/ros2_ws/build/cpp_service_demo -- -j8 -l8
+[11.377s] Invoking command in '/home/alaa/ros2_ws/build/cpp_service_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alaa/ros2_ws/build/cpp_service_demo
+[11.384s] -- Install configuration: ""
+[11.385s] -- Execute custom install script
+[11.385s] -- Symlinking: /home/alaa/ros2_ws/install/cpp_service_demo/lib/cpp_service_demo/service_node
+[11.395s] -- Symlinking: /home/alaa/ros2_ws/install/cpp_service_demo/share/ament_index/resource_index/package_run_dependencies/cpp_service_demo
+[11.404s] -- Symlinking: /home/alaa/ros2_ws/install/cpp_service_demo/share/ament_index/resource_index/parent_prefix_path/cpp_service_demo
+[11.413s] -- Symlinking: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/environment/ament_prefix_path.sh
+[11.422s] -- Symlinking: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/environment/ament_prefix_path.dsv
+[11.431s] -- Symlinking: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/environment/path.sh
+[11.440s] -- Symlinking: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/environment/path.dsv
+[11.450s] -- Symlinking: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/local_setup.bash
+[11.459s] -- Symlinking: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/local_setup.sh
+[11.468s] -- Symlinking: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/local_setup.zsh
+[11.477s] -- Symlinking: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/local_setup.dsv
+[11.486s] -- Symlinking: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/package.dsv
+[11.495s] -- Symlinking: /home/alaa/ros2_ws/install/cpp_service_demo/share/ament_index/resource_index/packages/cpp_service_demo
+[11.504s] -- Symlinking: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/cmake/cpp_service_demoConfig.cmake
+[11.513s] -- Symlinking: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/cmake/cpp_service_demoConfig-version.cmake
+[11.522s] -- Symlinking: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/package.xml
+[11.533s] Invoked command in '/home/alaa/ros2_ws/build/cpp_service_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alaa/ros2_ws/build/cpp_service_demo
