@@ -1,0 +1,33 @@
+[0.037s] Invoking command in '/home/alaa/ros2_ws/build/cpp_service_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alaa/ros2_ws/build/cpp_service_demo -- -j8 -l8
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target add_three_ints_client[0m
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target add_three_ints_server[0m
+[0.117s] [ 25%] Built target service_node
+[0.119s] [ 50%] Built target client_node
+[0.119s] [ 75%] Built target add_three_ints_server
+[0.121s] [ 87%] [32mBuilding CXX object CMakeFiles/add_three_ints_client.dir/src/add_three_ints_client.cpp.o[0m
+[4.638s] [100%] [32m[1mLinking CXX executable add_three_ints_client[0m
+[4.857s] [100%] Built target add_three_ints_client
+[4.872s] Invoked command in '/home/alaa/ros2_ws/build/cpp_service_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alaa/ros2_ws/build/cpp_service_demo -- -j8 -l8
+[4.874s] Invoking command in '/home/alaa/ros2_ws/build/cpp_service_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alaa/ros2_ws/build/cpp_service_demo
+[4.883s] -- Install configuration: ""
+[4.883s] -- Execute custom install script
+[4.884s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/lib/cpp_service_demo/service_node
+[4.884s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/lib/cpp_service_demo/client_node
+[4.884s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/lib/cpp_service_demo/add_three_ints_server
+[4.884s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/lib/cpp_service_demo/add_three_ints_client
+[4.885s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/ament_index/resource_index/package_run_dependencies/cpp_service_demo
+[4.885s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/ament_index/resource_index/parent_prefix_path/cpp_service_demo
+[4.885s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/environment/ament_prefix_path.sh
+[4.885s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/environment/ament_prefix_path.dsv
+[4.886s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/environment/path.sh
+[4.886s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/environment/path.dsv
+[4.886s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/local_setup.bash
+[4.886s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/local_setup.sh
+[4.886s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/local_setup.zsh
+[4.886s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/local_setup.dsv
+[4.887s] -- Symlinking: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/package.dsv
+[4.898s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/ament_index/resource_index/packages/cpp_service_demo
+[4.898s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/cmake/cpp_service_demoConfig.cmake
+[4.898s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/cmake/cpp_service_demoConfig-version.cmake
+[4.898s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/package.xml
+[4.900s] Invoked command in '/home/alaa/ros2_ws/build/cpp_service_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alaa/ros2_ws/build/cpp_service_demo

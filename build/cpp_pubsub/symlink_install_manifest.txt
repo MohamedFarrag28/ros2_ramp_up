@@ -1,5 +1,7 @@
 /home/alaa/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/minimal_publisher
 /home/alaa/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/minimal_subscriber
+/home/alaa/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/num_publisher
+/home/alaa/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/num_subscriber
 /home/alaa/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
 /home/alaa/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
 /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh

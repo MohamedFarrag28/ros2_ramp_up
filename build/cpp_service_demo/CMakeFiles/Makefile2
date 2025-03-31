@@ -65,6 +65,8 @@ CMAKE_BINARY_DIR = /home/alaa/ros2_ws/build/cpp_service_demo
 # The main recursive "all" target.
 all: CMakeFiles/service_node.dir/all
 all: CMakeFiles/client_node.dir/all
+all: CMakeFiles/add_three_ints_server.dir/all
+all: CMakeFiles/add_three_ints_client.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +78,8 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/cpp_service_demo_uninstall.dir/clean
 clean: CMakeFiles/service_node.dir/clean
 clean: CMakeFiles/client_node.dir/clean
+clean: CMakeFiles/add_three_ints_server.dir/clean
+clean: CMakeFiles/add_three_ints_client.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -137,7 +141,7 @@ CMakeFiles/cpp_service_demo_uninstall.dir/clean:
 CMakeFiles/service_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/service_node.dir/build.make CMakeFiles/service_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/service_node.dir/build.make CMakeFiles/service_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alaa/ros2_ws/build/cpp_service_demo/CMakeFiles --progress-num=3,4 "Built target service_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alaa/ros2_ws/build/cpp_service_demo/CMakeFiles --progress-num=7,8 "Built target service_node"
 .PHONY : CMakeFiles/service_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -163,7 +167,7 @@ CMakeFiles/service_node.dir/clean:
 CMakeFiles/client_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client_node.dir/build.make CMakeFiles/client_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client_node.dir/build.make CMakeFiles/client_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alaa/ros2_ws/build/cpp_service_demo/CMakeFiles --progress-num=1,2 "Built target client_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alaa/ros2_ws/build/cpp_service_demo/CMakeFiles --progress-num=5,6 "Built target client_node"
 .PHONY : CMakeFiles/client_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,6 +185,58 @@ client_node: CMakeFiles/client_node.dir/rule
 CMakeFiles/client_node.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client_node.dir/build.make CMakeFiles/client_node.dir/clean
 .PHONY : CMakeFiles/client_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/add_three_ints_server.dir
+
+# All Build rule for target.
+CMakeFiles/add_three_ints_server.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_three_ints_server.dir/build.make CMakeFiles/add_three_ints_server.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_three_ints_server.dir/build.make CMakeFiles/add_three_ints_server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alaa/ros2_ws/build/cpp_service_demo/CMakeFiles --progress-num=3,4 "Built target add_three_ints_server"
+.PHONY : CMakeFiles/add_three_ints_server.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/add_three_ints_server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alaa/ros2_ws/build/cpp_service_demo/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/add_three_ints_server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alaa/ros2_ws/build/cpp_service_demo/CMakeFiles 0
+.PHONY : CMakeFiles/add_three_ints_server.dir/rule
+
+# Convenience name for target.
+add_three_ints_server: CMakeFiles/add_three_ints_server.dir/rule
+.PHONY : add_three_ints_server
+
+# clean rule for target.
+CMakeFiles/add_three_ints_server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_three_ints_server.dir/build.make CMakeFiles/add_three_ints_server.dir/clean
+.PHONY : CMakeFiles/add_three_ints_server.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/add_three_ints_client.dir
+
+# All Build rule for target.
+CMakeFiles/add_three_ints_client.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_three_ints_client.dir/build.make CMakeFiles/add_three_ints_client.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_three_ints_client.dir/build.make CMakeFiles/add_three_ints_client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alaa/ros2_ws/build/cpp_service_demo/CMakeFiles --progress-num=1,2 "Built target add_three_ints_client"
+.PHONY : CMakeFiles/add_three_ints_client.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/add_three_ints_client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alaa/ros2_ws/build/cpp_service_demo/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/add_three_ints_client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alaa/ros2_ws/build/cpp_service_demo/CMakeFiles 0
+.PHONY : CMakeFiles/add_three_ints_client.dir/rule
+
+# Convenience name for target.
+add_three_ints_client: CMakeFiles/add_three_ints_client.dir/rule
+.PHONY : add_three_ints_client
+
+# clean rule for target.
+CMakeFiles/add_three_ints_client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_three_ints_client.dir/build.make CMakeFiles/add_three_ints_client.dir/clean
+.PHONY : CMakeFiles/add_three_ints_client.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

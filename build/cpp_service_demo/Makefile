@@ -223,6 +223,80 @@ client_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client_node.dir/build.make CMakeFiles/client_node.dir/build
 .PHONY : client_node/fast
 
+#=============================================================================
+# Target rules for targets named add_three_ints_server
+
+# Build rule for target.
+add_three_ints_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 add_three_ints_server
+.PHONY : add_three_ints_server
+
+# fast build rule for target.
+add_three_ints_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_three_ints_server.dir/build.make CMakeFiles/add_three_ints_server.dir/build
+.PHONY : add_three_ints_server/fast
+
+#=============================================================================
+# Target rules for targets named add_three_ints_client
+
+# Build rule for target.
+add_three_ints_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 add_three_ints_client
+.PHONY : add_three_ints_client
+
+# fast build rule for target.
+add_three_ints_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_three_ints_client.dir/build.make CMakeFiles/add_three_ints_client.dir/build
+.PHONY : add_three_ints_client/fast
+
+src/add_three_ints_client.o: src/add_three_ints_client.cpp.o
+.PHONY : src/add_three_ints_client.o
+
+# target to build an object file
+src/add_three_ints_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_three_ints_client.dir/build.make CMakeFiles/add_three_ints_client.dir/src/add_three_ints_client.cpp.o
+.PHONY : src/add_three_ints_client.cpp.o
+
+src/add_three_ints_client.i: src/add_three_ints_client.cpp.i
+.PHONY : src/add_three_ints_client.i
+
+# target to preprocess a source file
+src/add_three_ints_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_three_ints_client.dir/build.make CMakeFiles/add_three_ints_client.dir/src/add_three_ints_client.cpp.i
+.PHONY : src/add_three_ints_client.cpp.i
+
+src/add_three_ints_client.s: src/add_three_ints_client.cpp.s
+.PHONY : src/add_three_ints_client.s
+
+# target to generate assembly for a file
+src/add_three_ints_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_three_ints_client.dir/build.make CMakeFiles/add_three_ints_client.dir/src/add_three_ints_client.cpp.s
+.PHONY : src/add_three_ints_client.cpp.s
+
+src/add_three_ints_server.o: src/add_three_ints_server.cpp.o
+.PHONY : src/add_three_ints_server.o
+
+# target to build an object file
+src/add_three_ints_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_three_ints_server.dir/build.make CMakeFiles/add_three_ints_server.dir/src/add_three_ints_server.cpp.o
+.PHONY : src/add_three_ints_server.cpp.o
+
+src/add_three_ints_server.i: src/add_three_ints_server.cpp.i
+.PHONY : src/add_three_ints_server.i
+
+# target to preprocess a source file
+src/add_three_ints_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_three_ints_server.dir/build.make CMakeFiles/add_three_ints_server.dir/src/add_three_ints_server.cpp.i
+.PHONY : src/add_three_ints_server.cpp.i
+
+src/add_three_ints_server.s: src/add_three_ints_server.cpp.s
+.PHONY : src/add_three_ints_server.s
+
+# target to generate assembly for a file
+src/add_three_ints_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/add_three_ints_server.dir/build.make CMakeFiles/add_three_ints_server.dir/src/add_three_ints_server.cpp.s
+.PHONY : src/add_three_ints_server.cpp.s
+
 src/client_node.o: src/client_node.cpp.o
 .PHONY : src/client_node.o
 
@@ -286,8 +360,16 @@ help:
 	@echo "... test"
 	@echo "... cpp_service_demo_uninstall"
 	@echo "... uninstall"
+	@echo "... add_three_ints_client"
+	@echo "... add_three_ints_server"
 	@echo "... client_node"
 	@echo "... service_node"
+	@echo "... src/add_three_ints_client.o"
+	@echo "... src/add_three_ints_client.i"
+	@echo "... src/add_three_ints_client.s"
+	@echo "... src/add_three_ints_server.o"
+	@echo "... src/add_three_ints_server.i"
+	@echo "... src/add_three_ints_server.s"
 	@echo "... src/client_node.o"
 	@echo "... src/client_node.i"
 	@echo "... src/client_node.s"

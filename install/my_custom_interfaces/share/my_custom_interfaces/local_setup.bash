@@ -1,0 +1,1 @@
+/home/alaa/ros2_ws/build/my_custom_interfaces/ament_cmake_environment_hooks/local_setup.bash

@@ -223,6 +223,80 @@ minimal_subscriber/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimal_subscriber.dir/build.make CMakeFiles/minimal_subscriber.dir/build
 .PHONY : minimal_subscriber/fast
 
+#=============================================================================
+# Target rules for targets named num_publisher
+
+# Build rule for target.
+num_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 num_publisher
+.PHONY : num_publisher
+
+# fast build rule for target.
+num_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/num_publisher.dir/build.make CMakeFiles/num_publisher.dir/build
+.PHONY : num_publisher/fast
+
+#=============================================================================
+# Target rules for targets named num_subscriber
+
+# Build rule for target.
+num_subscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 num_subscriber
+.PHONY : num_subscriber
+
+# fast build rule for target.
+num_subscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/num_subscriber.dir/build.make CMakeFiles/num_subscriber.dir/build
+.PHONY : num_subscriber/fast
+
+src/num_publisher.o: src/num_publisher.cpp.o
+.PHONY : src/num_publisher.o
+
+# target to build an object file
+src/num_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/num_publisher.dir/build.make CMakeFiles/num_publisher.dir/src/num_publisher.cpp.o
+.PHONY : src/num_publisher.cpp.o
+
+src/num_publisher.i: src/num_publisher.cpp.i
+.PHONY : src/num_publisher.i
+
+# target to preprocess a source file
+src/num_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/num_publisher.dir/build.make CMakeFiles/num_publisher.dir/src/num_publisher.cpp.i
+.PHONY : src/num_publisher.cpp.i
+
+src/num_publisher.s: src/num_publisher.cpp.s
+.PHONY : src/num_publisher.s
+
+# target to generate assembly for a file
+src/num_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/num_publisher.dir/build.make CMakeFiles/num_publisher.dir/src/num_publisher.cpp.s
+.PHONY : src/num_publisher.cpp.s
+
+src/num_subscriber.o: src/num_subscriber.cpp.o
+.PHONY : src/num_subscriber.o
+
+# target to build an object file
+src/num_subscriber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/num_subscriber.dir/build.make CMakeFiles/num_subscriber.dir/src/num_subscriber.cpp.o
+.PHONY : src/num_subscriber.cpp.o
+
+src/num_subscriber.i: src/num_subscriber.cpp.i
+.PHONY : src/num_subscriber.i
+
+# target to preprocess a source file
+src/num_subscriber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/num_subscriber.dir/build.make CMakeFiles/num_subscriber.dir/src/num_subscriber.cpp.i
+.PHONY : src/num_subscriber.cpp.i
+
+src/num_subscriber.s: src/num_subscriber.cpp.s
+.PHONY : src/num_subscriber.s
+
+# target to generate assembly for a file
+src/num_subscriber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/num_subscriber.dir/build.make CMakeFiles/num_subscriber.dir/src/num_subscriber.cpp.s
+.PHONY : src/num_subscriber.cpp.s
+
 src/publisher_node.o: src/publisher_node.cpp.o
 .PHONY : src/publisher_node.o
 
@@ -288,6 +362,14 @@ help:
 	@echo "... uninstall"
 	@echo "... minimal_publisher"
 	@echo "... minimal_subscriber"
+	@echo "... num_publisher"
+	@echo "... num_subscriber"
+	@echo "... src/num_publisher.o"
+	@echo "... src/num_publisher.i"
+	@echo "... src/num_publisher.s"
+	@echo "... src/num_subscriber.o"
+	@echo "... src/num_subscriber.i"
+	@echo "... src/num_subscriber.s"
 	@echo "... src/publisher_node.o"
 	@echo "... src/publisher_node.i"
 	@echo "... src/publisher_node.s"

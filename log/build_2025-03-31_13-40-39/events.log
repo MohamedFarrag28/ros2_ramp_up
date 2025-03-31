@@ -1,0 +1,449 @@
+[0.000000] (-) TimerEvent: {}
+[0.000310] (cpp_service_demo) JobQueued: {'identifier': 'cpp_service_demo', 'dependencies': OrderedDict()}
+[0.000596] (my_custom_interfaces) JobQueued: {'identifier': 'my_custom_interfaces', 'dependencies': OrderedDict()}
+[0.000627] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('my_custom_interfaces', '/home/alaa/ros2_ws/install/my_custom_interfaces')])}
+[0.000655] (my_custom_interfaces) JobStarted: {'identifier': 'my_custom_interfaces'}
+[0.007823] (cpp_service_demo) JobStarted: {'identifier': 'cpp_service_demo'}
+[0.012191] (my_custom_interfaces) JobProgress: {'identifier': 'my_custom_interfaces', 'progress': 'cmake'}
+[0.012946] (my_custom_interfaces) JobProgress: {'identifier': 'my_custom_interfaces', 'progress': 'build'}
+[0.013838] (my_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alaa/ros2_ws/build/my_custom_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/alaa/ros2_ws/build/my_custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alaa'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alaa/ros2_ws/install/my_custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alaa'), ('OLDPWD', '/home/alaa/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('SYSTEMD_EXEC_PID', '1177'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/alaa/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alaa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alaa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/g3-3500:@/tmp/.ICE-unix/1155,unix/g3-3500:/tmp/.ICE-unix/1155'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ac6ca1de_639e_4239_b5cd_d6bd1b6765e8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D6J732'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alaa/ros2_ws/install/my_custom_interfaces:/home/alaa/ros2_ws/install/cpp_service_demo:/home/alaa/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alaa/ros2_ws/build/my_custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alaa/ros2_ws/install/my_custom_interfaces:/home/alaa/ros2_ws/install/cpp_service_demo:/home/alaa/ros2_ws/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.017859] (cpp_service_demo) JobProgress: {'identifier': 'cpp_service_demo', 'progress': 'cmake'}
+[0.018586] (cpp_service_demo) JobProgress: {'identifier': 'cpp_service_demo', 'progress': 'build'}
+[0.018907] (cpp_service_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alaa/ros2_ws/build/cpp_service_demo', '--', '-j8', '-l8'], 'cwd': '/home/alaa/ros2_ws/build/cpp_service_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alaa'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alaa/ros2_ws/install/my_custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alaa'), ('OLDPWD', '/home/alaa/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('SYSTEMD_EXEC_PID', '1177'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/alaa/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alaa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alaa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/g3-3500:@/tmp/.ICE-unix/1155,unix/g3-3500:/tmp/.ICE-unix/1155'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ac6ca1de_639e_4239_b5cd_d6bd1b6765e8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D6J732'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alaa/ros2_ws/install/my_custom_interfaces:/home/alaa/ros2_ws/install/cpp_service_demo:/home/alaa/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alaa/ros2_ws/build/cpp_service_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alaa/ros2_ws/install/my_custom_interfaces:/home/alaa/ros2_ws/install/cpp_service_demo:/home/alaa/ros2_ws/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.060061] (my_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_custom_interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.068817] (cpp_service_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_node\x1b[0m\n'}
+[0.072057] (cpp_service_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client_node\x1b[0m\n'}
+[0.072371] (my_custom_interfaces) StdoutLine: {'line': b'[  2%] Built target my_custom_interfaces__cpp\n'}
+[0.078322] (my_custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target my_custom_interfaces__rosidl_generator_c\n'}
+[0.090603] (my_custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_my_custom_interfaces\n'}
+[0.090878] (my_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_custom_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.091027] (my_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_custom_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.091273] (my_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_custom_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.094786] (cpp_service_demo) StdoutLine: {'line': b'[ 50%] Built target service_node\n'}
+[0.096543] (my_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_custom_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.098214] (my_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_custom_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.098467] (my_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_custom_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[0.099657] (cpp_service_demo) StdoutLine: {'line': b'[100%] Built target client_node\n'}
+[0.099857] (-) TimerEvent: {}
+[0.110008] (my_custom_interfaces) StdoutLine: {'line': b'[ 23%] Built target my_custom_interfaces__rosidl_typesupport_cpp\n'}
+[0.113313] (my_custom_interfaces) StdoutLine: {'line': b'[ 34%] Built target my_custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.113671] (my_custom_interfaces) StdoutLine: {'line': b'[ 44%] Built target my_custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.117518] (cpp_service_demo) CommandEnded: {'returncode': 0}
+[0.118300] (my_custom_interfaces) StdoutLine: {'line': b'[ 55%] Built target my_custom_interfaces__rosidl_typesupport_c\n'}
+[0.118540] (my_custom_interfaces) StdoutLine: {'line': b'[ 65%] Built target my_custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.118891] (cpp_service_demo) JobProgress: {'identifier': 'cpp_service_demo', 'progress': 'install'}
+[0.120396] (my_custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target my_custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.128910] (cpp_service_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alaa/ros2_ws/build/cpp_service_demo'], 'cwd': '/home/alaa/ros2_ws/build/cpp_service_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alaa'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alaa/ros2_ws/install/my_custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alaa'), ('OLDPWD', '/home/alaa/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('SYSTEMD_EXEC_PID', '1177'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/alaa/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alaa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alaa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/g3-3500:@/tmp/.ICE-unix/1155,unix/g3-3500:/tmp/.ICE-unix/1155'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ac6ca1de_639e_4239_b5cd_d6bd1b6765e8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D6J732'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alaa/ros2_ws/install/my_custom_interfaces:/home/alaa/ros2_ws/install/cpp_service_demo:/home/alaa/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alaa/ros2_ws/build/cpp_service_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alaa/ros2_ws/install/my_custom_interfaces:/home/alaa/ros2_ws/install/cpp_service_demo:/home/alaa/ros2_ws/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.138604] (cpp_service_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.139206] (cpp_service_demo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.139667] (cpp_service_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/lib/cpp_service_demo/service_node\n'}
+[0.139931] (cpp_service_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/lib/cpp_service_demo/client_node\n'}
+[0.140242] (cpp_service_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/ament_index/resource_index/package_run_dependencies/cpp_service_demo\n'}
+[0.140560] (cpp_service_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/ament_index/resource_index/parent_prefix_path/cpp_service_demo\n'}
+[0.140836] (cpp_service_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/environment/ament_prefix_path.sh\n'}
+[0.141106] (cpp_service_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/environment/ament_prefix_path.dsv\n'}
+[0.141399] (cpp_service_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/environment/path.sh\n'}
+[0.141671] (cpp_service_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/environment/path.dsv\n'}
+[0.141939] (cpp_service_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/local_setup.bash\n'}
+[0.142206] (cpp_service_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/local_setup.sh\n'}
+[0.142500] (cpp_service_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/local_setup.zsh\n'}
+[0.142761] (cpp_service_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/local_setup.dsv\n'}
+[0.142983] (my_custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target my_custom_interfaces\n'}
+[0.143192] (cpp_service_demo) StdoutLine: {'line': b'-- Symlinking: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/package.dsv\n'}
+[0.153072] (cpp_service_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/ament_index/resource_index/packages/cpp_service_demo\n'}
+[0.153383] (cpp_service_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/cmake/cpp_service_demoConfig.cmake\n'}
+[0.153613] (cpp_service_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/cmake/cpp_service_demoConfig-version.cmake\n'}
+[0.153820] (cpp_service_demo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/package.xml\n'}
+[0.155721] (cpp_service_demo) CommandEnded: {'returncode': 0}
+[0.165554] (my_custom_interfaces) StdoutLine: {'line': b'[ 78%] Built target my_custom_interfaces__py\n'}
+[0.177952] (my_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_custom_interfaces__rosidl_generator_py\x1b[0m\n'}
+[0.184936] (cpp_service_demo) JobEnded: {'identifier': 'cpp_service_demo', 'rc': 0}
+[0.192436] (my_custom_interfaces) StdoutLine: {'line': b'[ 87%] Built target my_custom_interfaces__rosidl_generator_py\n'}
+[0.199973] (-) TimerEvent: {}
+[0.204091] (my_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_custom_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.204342] (my_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_custom_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.207618] (my_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.218991] (my_custom_interfaces) StdoutLine: {'line': b'[ 91%] Built target my_custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.219438] (my_custom_interfaces) StdoutLine: {'line': b'[ 95%] Built target my_custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.222632] (my_custom_interfaces) StdoutLine: {'line': b'[100%] Built target my_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.300106] (-) TimerEvent: {}
+[0.400342] (-) TimerEvent: {}
+[0.417218] (my_custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.418205] (my_custom_interfaces) StdoutLine: {'line': b'writing my_custom_interfaces.egg-info/PKG-INFO\n'}
+[0.418457] (my_custom_interfaces) StdoutLine: {'line': b'writing dependency_links to my_custom_interfaces.egg-info/dependency_links.txt\n'}
+[0.418715] (my_custom_interfaces) StdoutLine: {'line': b'writing top-level names to my_custom_interfaces.egg-info/top_level.txt\n'}
+[0.421272] (my_custom_interfaces) StdoutLine: {'line': b"reading manifest file 'my_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[0.422062] (my_custom_interfaces) StdoutLine: {'line': b"writing manifest file 'my_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[0.451780] (my_custom_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_my_custom_interfaces_egg\n'}
+[0.463862] (my_custom_interfaces) CommandEnded: {'returncode': 0}
+[0.464691] (my_custom_interfaces) JobProgress: {'identifier': 'my_custom_interfaces', 'progress': 'install'}
+[0.464984] (my_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alaa/ros2_ws/build/my_custom_interfaces'], 'cwd': '/home/alaa/ros2_ws/build/my_custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alaa'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alaa/ros2_ws/install/my_custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alaa'), ('OLDPWD', '/home/alaa/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('SYSTEMD_EXEC_PID', '1177'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/alaa/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alaa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alaa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/g3-3500:@/tmp/.ICE-unix/1155,unix/g3-3500:/tmp/.ICE-unix/1155'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ac6ca1de_639e_4239_b5cd_d6bd1b6765e8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D6J732'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alaa/ros2_ws/install/my_custom_interfaces:/home/alaa/ros2_ws/install/cpp_service_demo:/home/alaa/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alaa/ros2_ws/build/my_custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alaa/ros2_ws/install/my_custom_interfaces:/home/alaa/ros2_ws/install/cpp_service_demo:/home/alaa/ros2_ws/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.474407] (my_custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.475103] (my_custom_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.475428] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_custom_interfaces\n'}
+[0.475944] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/num__functions.h\n'}
+[0.476136] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/num__struct.h\n'}
+[0.476232] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/num__type_support.h\n'}
+[0.476375] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sphere__functions.h\n'}
+[0.476504] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sphere__struct.h\n'}
+[0.476613] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sphere__type_support.h\n'}
+[0.476729] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/num.h\n'}
+[0.476835] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.476944] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/sphere.h\n'}
+[0.477047] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/add_three_ints.h\n'}
+[0.477153] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[0.477281] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[0.477457] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[0.477658] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/library_path.sh\n'}
+[0.477788] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/library_path.dsv\n'}
+[0.478476] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[0.478620] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[0.478755] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.478888] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[0.479430] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/num__builder.hpp\n'}
+[0.479558] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/num__struct.hpp\n'}
+[0.479688] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/num__traits.hpp\n'}
+[0.479815] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/num__type_support.hpp\n'}
+[0.479942] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sphere__builder.hpp\n'}
+[0.480069] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sphere__struct.hpp\n'}
+[0.480194] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sphere__traits.hpp\n'}
+[0.480327] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sphere__type_support.hpp\n'}
+[0.480457] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/num.hpp\n'}
+[0.480580] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.480702] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/sphere.hpp\n'}
+[0.480840] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/add_three_ints.hpp\n'}
+[0.480966] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[0.481096] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[0.481221] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[0.481359] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/add_three_ints__type_support.hpp\n'}
+[0.481966] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.482100] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.482226] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.482369] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.482787] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[0.482921] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[0.483046] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.483172] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[0.483595] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.483727] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.483856] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.484044] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/pythonpath.sh\n'}
+[0.484217] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/pythonpath.dsv\n'}
+[0.484582] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.484712] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.484839] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.484965] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.485679] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/__init__.py\n'}
+[0.485806] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.485938] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.486063] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.486183] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/libmy_custom_interfaces__rosidl_generator_py.so\n'}
+[0.486328] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/msg/__init__.py\n'}
+[0.486458] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/msg/_num.py\n'}
+[0.486590] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/msg/_num_s.c\n'}
+[0.486710] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/msg/_sphere.py\n'}
+[0.486833] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/msg/_sphere_s.c\n'}
+[0.486966] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.487075] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.487196] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.487330] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/srv/__init__.py\n'}
+[0.487456] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/srv/_add_three_ints.py\n'}
+[0.487577] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/srv/_add_three_ints_s.c\n'}
+[0.487883] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.488183] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.488492] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.488690] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/Num.idl\n'}
+[0.488872] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/Sphere.idl\n'}
+[0.489048] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/srv/AddThreeInts.idl\n'}
+[0.489225] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/Num.msg\n'}
+[0.489410] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/Sphere.msg\n'}
+[0.489580] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/srv/AddThreeInts.srv\n'}
+[0.489758] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/srv/AddThreeInts_Request.msg\n'}
+[0.489928] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/srv/AddThreeInts_Response.msg\n'}
+[0.490116] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/my_custom_interfaces\n'}
+[0.490319] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/my_custom_interfaces\n'}
+[0.490505] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/ament_prefix_path.sh\n'}
+[0.490673] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.490850] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/path.sh\n'}
+[0.491021] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/path.dsv\n'}
+[0.491191] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/local_setup.bash\n'}
+[0.491374] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/local_setup.sh\n'}
+[0.491541] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/local_setup.zsh\n'}
+[0.491706] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/local_setup.dsv\n'}
+[0.491833] (my_custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/package.dsv\n'}
+[0.500421] (-) TimerEvent: {}
+[0.501217] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/packages/my_custom_interfaces\n'}
+[0.501443] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.501633] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.501818] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.501997] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.502173] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.502321] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.502530] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.502713] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfacesConfig.cmake\n'}
+[0.502815] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfacesConfig-version.cmake\n'}
+[0.502966] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/package.xml\n'}
+[0.503207] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_generator_c.so\n'}
+[0.503503] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.503773] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.504038] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.504290] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_c.so\n'}
+[0.504550] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.504806] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.544348] (my_custom_interfaces) StdoutLine: {'line': b"Listing '/home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces'...\n"}
+[0.544533] (my_custom_interfaces) StdoutLine: {'line': b"Listing '/home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/msg'...\n"}
+[0.544626] (my_custom_interfaces) StdoutLine: {'line': b"Listing '/home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages/my_custom_interfaces/srv'...\n"}
+[0.549687] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_generator_py.so\n'}
+[0.549944] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.550076] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.550185] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.550340] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.550476] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.550562] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.550684] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.550768] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.550849] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.550928] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.551007] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.551111] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.551239] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.551334] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.551412] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.551487] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.551562] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.553226] (my_custom_interfaces) CommandEnded: {'returncode': 0}
+[0.573929] (my_custom_interfaces) JobEnded: {'identifier': 'my_custom_interfaces', 'rc': 0}
+[0.575174] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.595009] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.596059] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.596581] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alaa/ros2_ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/alaa/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alaa'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alaa/ros2_ws/install/my_custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alaa'), ('OLDPWD', '/home/alaa/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('SYSTEMD_EXEC_PID', '1177'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/alaa/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alaa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alaa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/g3-3500:@/tmp/.ICE-unix/1155,unix/g3-3500:/tmp/.ICE-unix/1155'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ac6ca1de_639e_4239_b5cd_d6bd1b6765e8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D6J732'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alaa/ros2_ws/install/my_custom_interfaces:/home/alaa/ros2_ws/install/cpp_service_demo:/home/alaa/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alaa/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alaa/ros2_ws/install/my_custom_interfaces:/home/alaa/ros2_ws/install/cpp_service_demo:/home/alaa/ros2_ws/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.600494] (-) TimerEvent: {}
+[0.646572] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700631] (-) TimerEvent: {}
+[0.793108] (cpp_pubsub) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.800707] (-) TimerEvent: {}
+[0.802319] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.845526] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.848700] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.856196] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.868649] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.884920] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900822] (-) TimerEvent: {}
+[0.927582] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.929406] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.000966] (-) TimerEvent: {}
+[1.053822] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.101078] (-) TimerEvent: {}
+[1.120187] (cpp_pubsub) StdoutLine: {'line': b'-- Found my_custom_interfaces: 0.0.0 (/home/alaa/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake)\n'}
+[1.162575] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.201214] (-) TimerEvent: {}
+[1.258599] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.258836] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.258925] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.259436] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.260409] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.260539] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.260861] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.262768] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.301353] (-) TimerEvent: {}
+[1.311063] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[1.320231] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/alaa/ros2_ws/build/cpp_pubsub\n'}
+[1.348770] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target minimal_subscriber\x1b[0m\n'}
+[1.351415] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target minimal_publisher\x1b[0m\n'}
+[1.359063] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/num_publisher.dir/src/num_publisher.cpp.o\x1b[0m\n'}
+[1.359349] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/num_subscriber.dir/src/num_subscriber.cpp.o\x1b[0m\n'}
+[1.366029] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target minimal_subscriber\n'}
+[1.369013] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target minimal_publisher\n'}
+[1.401456] (-) TimerEvent: {}
+[1.501724] (-) TimerEvent: {}
+[1.602050] (-) TimerEvent: {}
+[1.702358] (-) TimerEvent: {}
+[1.802642] (-) TimerEvent: {}
+[1.902972] (-) TimerEvent: {}
+[2.003303] (-) TimerEvent: {}
+[2.103593] (-) TimerEvent: {}
+[2.203920] (-) TimerEvent: {}
+[2.304240] (-) TimerEvent: {}
+[2.404536] (-) TimerEvent: {}
+[2.504815] (-) TimerEvent: {}
+[2.605137] (-) TimerEvent: {}
+[2.705440] (-) TimerEvent: {}
+[2.805732] (-) TimerEvent: {}
+[2.906048] (-) TimerEvent: {}
+[3.006358] (-) TimerEvent: {}
+[3.106644] (-) TimerEvent: {}
+[3.206969] (-) TimerEvent: {}
+[3.307294] (-) TimerEvent: {}
+[3.407584] (-) TimerEvent: {}
+[3.507871] (-) TimerEvent: {}
+[3.608190] (-) TimerEvent: {}
+[3.708484] (-) TimerEvent: {}
+[3.808770] (-) TimerEvent: {}
+[3.909097] (-) TimerEvent: {}
+[4.009363] (-) TimerEvent: {}
+[4.109653] (-) TimerEvent: {}
+[4.209973] (-) TimerEvent: {}
+[4.310303] (-) TimerEvent: {}
+[4.384843] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.385163] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.385309] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.385426] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.385529] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.385628] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.385726] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.385823] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.385918] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.386013] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.386108] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.386202] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alaa/ros2_ws/src/cpp_pubsub/src/num_publisher.cpp:1\x1b[m\x1b[K:\n'}
+[4.386310] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alaa/ros2_ws/src/cpp_pubsub/src/num_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NumPublisher::publish_message()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.386412] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alaa/ros2_ws/src/cpp_pubsub/src/num_publisher.cpp:19:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kmy_custom_interfaces::msg::Num_<std::allocator<void> >::_num_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.386529] (cpp_pubsub) StderrLine: {'line': b'   19 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Publishing: \'%d\'"\x1b[m\x1b[K, \x1b[32m\x1b[Kmessage.num\x1b[m\x1b[K);\n'}
+[4.386625] (cpp_pubsub) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.386726] (cpp_pubsub) StderrLine: {'line': b'      |                                                                     \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.386828] (cpp_pubsub) StderrLine: {'line': b'      |                                                                     \x1b[32m\x1b[Kmy_custom_interfaces::msg::Num_<std::allocator<void> >::_num_type {aka long int}\x1b[m\x1b[K\n'}
+[4.386922] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.387014] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.387105] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.387198] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.387303] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.387405] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.387499] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.387629] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.387740] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.387852] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.387964] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.388077] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alaa/ros2_ws/src/cpp_pubsub/src/num_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[4.388190] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alaa/ros2_ws/src/cpp_pubsub/src/num_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NumSubscriber::topic_callback(my_custom_interfaces::msg::Num_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.388324] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alaa/ros2_ws/src/cpp_pubsub/src/num_subscriber.cpp:17:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kmy_custom_interfaces::msg::Num_<std::allocator<void> >::_num_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.388453] (cpp_pubsub) StderrLine: {'line': b'   17 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Received: \'%d\'"\x1b[m\x1b[K, \x1b[32m\x1b[Kmsg->num\x1b[m\x1b[K);\n'}
+[4.388580] (cpp_pubsub) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[4.388693] (cpp_pubsub) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.388804] (cpp_pubsub) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[Kmy_custom_interfaces::msg::Num_<std::allocator<void> >::_num_type {aka long int}\x1b[m\x1b[K\n'}
+[4.388924] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alaa/ros2_ws/src/cpp_pubsub/src/num_publisher.cpp:19:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.389037] (cpp_pubsub) StderrLine: {'line': b'   19 |         RCLCPP_INFO(this->get_logger(), "Publishing: \'\x1b[01;36m\x1b[K%d\x1b[m\x1b[K\'", message.num);\n'}
+[4.389147] (cpp_pubsub) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.389265] (cpp_pubsub) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.389390] (cpp_pubsub) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[4.389501] (cpp_pubsub) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[4.389611] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alaa/ros2_ws/src/cpp_pubsub/src/num_subscriber.cpp:17:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.389721] (cpp_pubsub) StderrLine: {'line': b'   17 |         RCLCPP_INFO(this->get_logger(), "Received: \'\x1b[01;36m\x1b[K%d\x1b[m\x1b[K\'", msg->num);\n'}
+[4.389839] (cpp_pubsub) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.389953] (cpp_pubsub) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.390065] (cpp_pubsub) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[4.390176] (cpp_pubsub) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[4.410430] (-) TimerEvent: {}
+[4.510808] (-) TimerEvent: {}
+[4.611136] (-) TimerEvent: {}
+[4.711439] (-) TimerEvent: {}
+[4.811761] (-) TimerEvent: {}
+[4.912122] (-) TimerEvent: {}
+[5.012470] (-) TimerEvent: {}
+[5.112822] (-) TimerEvent: {}
+[5.213114] (-) TimerEvent: {}
+[5.313472] (-) TimerEvent: {}
+[5.413774] (-) TimerEvent: {}
+[5.514142] (-) TimerEvent: {}
+[5.614547] (-) TimerEvent: {}
+[5.714922] (-) TimerEvent: {}
+[5.815324] (-) TimerEvent: {}
+[5.915691] (-) TimerEvent: {}
+[6.016050] (-) TimerEvent: {}
+[6.116444] (-) TimerEvent: {}
+[6.216865] (-) TimerEvent: {}
+[6.317238] (-) TimerEvent: {}
+[6.417588] (-) TimerEvent: {}
+[6.517936] (-) TimerEvent: {}
+[6.618282] (-) TimerEvent: {}
+[6.718613] (-) TimerEvent: {}
+[6.818961] (-) TimerEvent: {}
+[6.919330] (-) TimerEvent: {}
+[7.019697] (-) TimerEvent: {}
+[7.120091] (-) TimerEvent: {}
+[7.133253] (cpp_pubsub) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable num_publisher\x1b[0m\n'}
+[7.220224] (-) TimerEvent: {}
+[7.320620] (-) TimerEvent: {}
+[7.355160] (cpp_pubsub) StdoutLine: {'line': b'[ 87%] Built target num_publisher\n'}
+[7.420765] (-) TimerEvent: {}
+[7.521100] (-) TimerEvent: {}
+[7.621359] (-) TimerEvent: {}
+[7.721640] (-) TimerEvent: {}
+[7.821937] (-) TimerEvent: {}
+[7.922251] (-) TimerEvent: {}
+[8.022574] (-) TimerEvent: {}
+[8.122844] (-) TimerEvent: {}
+[8.223152] (-) TimerEvent: {}
+[8.323443] (-) TimerEvent: {}
+[8.423775] (-) TimerEvent: {}
+[8.524146] (-) TimerEvent: {}
+[8.624561] (-) TimerEvent: {}
+[8.724882] (-) TimerEvent: {}
+[8.825253] (-) TimerEvent: {}
+[8.925570] (-) TimerEvent: {}
+[9.025881] (-) TimerEvent: {}
+[9.126190] (-) TimerEvent: {}
+[9.226475] (-) TimerEvent: {}
+[9.326799] (-) TimerEvent: {}
+[9.427095] (-) TimerEvent: {}
+[9.527352] (-) TimerEvent: {}
+[9.627618] (-) TimerEvent: {}
+[9.727884] (-) TimerEvent: {}
+[9.828189] (-) TimerEvent: {}
+[9.928469] (-) TimerEvent: {}
+[10.028742] (-) TimerEvent: {}
+[10.129046] (-) TimerEvent: {}
+[10.229354] (-) TimerEvent: {}
+[10.329632] (-) TimerEvent: {}
+[10.429922] (-) TimerEvent: {}
+[10.530232] (-) TimerEvent: {}
+[10.630622] (-) TimerEvent: {}
+[10.731086] (-) TimerEvent: {}
+[10.831457] (-) TimerEvent: {}
+[10.931764] (-) TimerEvent: {}
+[11.032041] (-) TimerEvent: {}
+[11.132358] (-) TimerEvent: {}
+[11.232633] (-) TimerEvent: {}
+[11.332908] (-) TimerEvent: {}
+[11.433362] (-) TimerEvent: {}
+[11.533660] (-) TimerEvent: {}
+[11.634018] (-) TimerEvent: {}
+[11.734343] (-) TimerEvent: {}
+[11.834622] (-) TimerEvent: {}
+[11.934903] (-) TimerEvent: {}
+[12.035222] (-) TimerEvent: {}
+[12.135515] (-) TimerEvent: {}
+[12.189589] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable num_subscriber\x1b[0m\n'}
+[12.235617] (-) TimerEvent: {}
+[12.335938] (-) TimerEvent: {}
+[12.436252] (-) TimerEvent: {}
+[12.536643] (-) TimerEvent: {}
+[12.637220] (-) TimerEvent: {}
+[12.697673] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target num_subscriber\n'}
+[12.713375] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[12.714650] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[12.715027] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alaa/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/alaa/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alaa'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alaa/ros2_ws/install/my_custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alaa'), ('OLDPWD', '/home/alaa/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('SYSTEMD_EXEC_PID', '1177'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/alaa/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alaa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alaa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/g3-3500:@/tmp/.ICE-unix/1155,unix/g3-3500:/tmp/.ICE-unix/1155'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ac6ca1de_639e_4239_b5cd_d6bd1b6765e8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D6J732'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alaa/ros2_ws/install/my_custom_interfaces:/home/alaa/ros2_ws/install/cpp_service_demo:/home/alaa/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alaa/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alaa/ros2_ws/install/my_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alaa/ros2_ws/install/my_custom_interfaces:/home/alaa/ros2_ws/install/cpp_service_demo:/home/alaa/ros2_ws/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[12.725009] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.725517] (cpp_pubsub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.725882] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/minimal_publisher\n'}
+[12.726024] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/minimal_subscriber\n'}
+[12.726164] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/alaa/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/num_publisher\n'}
+[12.736793] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/alaa/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/num_subscriber\n'}
+[12.737285] (-) TimerEvent: {}
+[12.747793] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[12.748124] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[12.748367] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[12.748484] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[12.748634] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[12.748805] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[12.748962] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[12.749096] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[12.749286] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[12.749529] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[12.749681] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[12.759985] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[12.760205] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[12.760432] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[12.760579] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[12.762403] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[12.788592] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[12.789563] (-) EventReactorShutdown: {}

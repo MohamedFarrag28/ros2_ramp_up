@@ -1,5 +1,7 @@
 /home/alaa/ros2_ws/install/cpp_service_demo/lib/cpp_service_demo/service_node
 /home/alaa/ros2_ws/install/cpp_service_demo/lib/cpp_service_demo/client_node
+/home/alaa/ros2_ws/install/cpp_service_demo/lib/cpp_service_demo/add_three_ints_server
+/home/alaa/ros2_ws/install/cpp_service_demo/lib/cpp_service_demo/add_three_ints_client
 /home/alaa/ros2_ws/install/cpp_service_demo/share/ament_index/resource_index/package_run_dependencies/cpp_service_demo
 /home/alaa/ros2_ws/install/cpp_service_demo/share/ament_index/resource_index/parent_prefix_path/cpp_service_demo
 /home/alaa/ros2_ws/install/cpp_service_demo/share/cpp_service_demo/environment/ament_prefix_path.sh
