@@ -1,0 +1,31 @@
+[0.054s] Invoking command in '/home/alaa/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/alaa/ros2_ws/install/my_custom_interfaces:/home/alaa/ros2_ws/install/cpp_service_demo:/home/alaa/ros2_ws/install/cpp_pubsub:/home/alaa/ros2_ws/install/more_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/alaa/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.539s] [ 50%] Built target num_subscriber
+[0.539s] [ 50%] Built target num_publisher
+[0.541s] [ 62%] [32mBuilding CXX object CMakeFiles/minimal_publisher.dir/src/publisher_node.cpp.o[0m
+[0.544s] [ 87%] Built target minimal_subscriber
+[8.550s] [100%] [32m[1mLinking CXX executable minimal_publisher[0m
+[9.125s] [100%] Built target minimal_publisher
+[9.137s] Invoked command in '/home/alaa/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/alaa/ros2_ws/install/my_custom_interfaces:/home/alaa/ros2_ws/install/cpp_service_demo:/home/alaa/ros2_ws/install/cpp_pubsub:/home/alaa/ros2_ws/install/more_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/alaa/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[9.184s] Invoking command in '/home/alaa/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/alaa/ros2_ws/install/my_custom_interfaces:/home/alaa/ros2_ws/install/cpp_service_demo:/home/alaa/ros2_ws/install/cpp_pubsub:/home/alaa/ros2_ws/install/more_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/alaa/ros2_ws/build/cpp_pubsub
+[9.193s] -- Install configuration: ""
+[9.202s] -- Execute custom install script
+[9.219s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/minimal_publisher
+[9.219s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/minimal_subscriber
+[9.219s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/num_publisher
+[9.220s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/num_subscriber
+[9.220s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[9.233s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[9.234s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[9.234s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[9.242s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[9.243s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[9.243s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[9.243s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[9.244s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[9.244s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[9.244s] -- Symlinking: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[9.255s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[9.256s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[9.256s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[9.256s] -- Up-to-date symlink: /home/alaa/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[9.259s] Invoked command in '/home/alaa/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/alaa/ros2_ws/install/my_custom_interfaces:/home/alaa/ros2_ws/install/cpp_service_demo:/home/alaa/ros2_ws/install/cpp_pubsub:/home/alaa/ros2_ws/install/more_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/alaa/ros2_ws/build/cpp_pubsub
